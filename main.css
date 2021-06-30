@@ -1,0 +1,103 @@
+body {    
+    display: inline-block;
+    width: 800px;
+    height: 600px;
+    margin-left: calc(50% - 400px);
+    margin-top: 150px;
+    background-image: url(./sign-up.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 150px;    
+    border: 0px solid red;
+}
+
+.left-side {    
+    float: left;
+    width: 261px;
+    height: 375px;
+    margin-top: 111px;
+    margin-left: 75px;
+    border: 0px solid blue;
+}
+
+h1 {
+    display: inline-block;
+    color: white;
+    font-weight: 100;
+    border: 0px solid blue;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+div > a {
+    display: inline-block;
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+    vertical-align: bottom;
+    border: 0px solid blue;   
+    margin-top: calc(100% - 10px);
+    
+    margin-left: 30px;
+    
+}
+
+form {    
+    float: left;
+    width: 382px;
+    height: 416px;
+    margin-top: 90px;
+    margin-left: 0px;
+    color: #acabab;
+    border: 0px solid blue;
+}
+
+form  a:first-child {
+    display: block;
+    text-align: right;
+    margin-top: 18px;
+    margin-right: 18px;
+    margin-bottom: 18px;
+    color: #acabab;
+}
+
+label, input {
+    margin-left: 55px;
+    font-size: 11px;
+}
+
+label {
+    text-transform: uppercase;
+}
+
+input {
+    margin-bottom: 30px;
+    border: 0;
+    width: 250px;
+    border-bottom: 1px solid #acabab;
+    background-color: white;
+}
+
+input:last-of-type {
+    float: left;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid #0c4eda;
+    background-color: #0c4eda;
+    color: white;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+form a:last-child, p {
+    float: left;   
+    font-size: 12px;
+    margin-top: 9px;
+    margin-left: 20px;
+}
+
+form a:last-child {
+    color: #0c4eda;
+
+}
