@@ -6,7 +6,7 @@ body {
     margin-top: 150px;
     background-image: url(./sign-up.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    
     background-position: 50% 150px;    
     border: 0px solid red;
 }
