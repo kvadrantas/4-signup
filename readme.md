@@ -6,6 +6,7 @@ This is one example of the homework series accomplished during Javascript course
 
 Site published at: https://kvadrantas.github.io/4-signup/
 
+
 Design: [Sign Up](https://cdn.discordapp.com/attachments/850245533838868480/850246368214908970/day1dr.png)
 
 ## Course Details
