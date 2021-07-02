@@ -11,13 +11,16 @@ main {
     left: calc(50% - 400px);
     display: inline-block;
     width: 800px;
-    height: 600px;    
-    background-image: url(./sign-up.jpg);
+    height: 600px;   
+    background: rgb(65,171,215);
+background: linear-gradient(217deg, rgba(65,171,215,1) 6%, rgba(91,179,199,1) 44%, rgba(93,31,109,1) 98%);
+   /* background-image: url(./img/sign-up.jpg); */
     background-repeat: no-repeat;         
     border: 0px solid red;
 }
 
 .left-side {    
+    background-image: url(./img/left-side.jpg);
     float: left;
     width: 261px;
     height: 375px;
@@ -26,6 +29,8 @@ main {
     position: relative;
     border: 0px solid blue;
 }
+
+.left-side p {color: white;}
 
 h1 {
     display: inline-block;
@@ -58,6 +63,7 @@ form {
     margin-left: 0px;
     color: #acabab;
     border: 0px solid blue;
+    background-color: white;
 }
 
 form  a:first-child {
@@ -98,7 +104,7 @@ input:last-of-type {
     margin-bottom: 0;
 }
 
-form a:last-child, p {
+.formlink, p {
     float: left;   
     font-size: 12px;
     margin-top: 9px;
