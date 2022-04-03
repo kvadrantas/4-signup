@@ -1,0 +1,117 @@
+body {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    border: 0px solid black;
+}
+
+main {    
+    position: absolute;
+    top: calc(50% - 300px);
+    left: calc(50% - 400px);
+    display: inline-block;
+    width: 800px;
+    height: 600px;   
+    background: rgb(65,171,215);
+background: linear-gradient(217deg, rgba(65,171,215,1) 6%, rgba(91,179,199,1) 44%, rgba(93,31,109,1) 98%);
+   /* background-image: url(./img/sign-up.jpg); */
+    background-repeat: no-repeat;         
+    border: 0px solid red;
+}
+
+.left-side {    
+    background-image: url(./img/left-side.jpg);
+    float: left;
+    width: 261px;
+    height: 375px;
+    margin-top: 111px;
+    margin-left: 75px;
+    position: relative;
+    border: 0px solid blue;
+}
+
+.left-side p {color: white;}
+
+h1 {
+    display: inline-block;
+    color: white;
+    font-weight: 100;
+    border: 0px solid blue;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+div > a {
+    display: inline-block;
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+    vertical-align: bottom;    
+    margin-left: 30px;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 0px solid blue; 
+}
+
+form {    
+    float: left;
+    width: 382px;
+    height: 416px;
+    margin-top: 90px;
+    margin-left: 0px;
+    color: #acabab;
+    border: 0px solid blue;
+    background-color: white;
+}
+
+form  a:first-child {
+    display: block;
+    text-align: right;
+    margin-top: 18px;
+    margin-right: 18px;
+    margin-bottom: 18px;
+    color: #acabab;
+}
+
+label, input {
+    margin-left: 55px;
+    font-size: 11px;
+}
+
+label {
+    text-transform: uppercase;
+}
+
+input {
+    margin-bottom: 30px;
+    border: 0;
+    width: 250px;
+    border-bottom: 1px solid #acabab;
+    background-color: white;
+}
+
+input:last-of-type {
+    float: left;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid #0c4eda;
+    background-color: #0c4eda;
+    color: white;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.formlink, p {
+    float: left;   
+    font-size: 12px;
+    margin-top: 9px;
+    margin-left: 20px;
+}
+
+form a:last-child {
+    color: #0c4eda;
+
+}
